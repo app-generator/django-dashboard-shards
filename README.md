@@ -1,4 +1,4 @@
-# [Django Dashboard Shards](https://www.youtube.com/watch?v=0FWA4lD2A0o)
+# [Django Dashboard Shards](https://appseed.us/admin-dashboards/django-dashboard-shards)
 
 **Open-Source Admin Panel** coded in **Django Framework** on top of **Shards Dashboard** design. **Features**:
 
@@ -79,4 +79,4 @@ $ # Access the web app in browser: http://127.0.0.1:8000/
 <br />
 
 ---
-[Django Dashboard Shards](https://www.youtube.com/watch?v=0FWA4lD2A0o) - provided by **AppSeed**
+[Django Dashboard Shards](https://appseed.us/admin-dashboards/django-dashboard-shards) - provided by **AppSeed**
