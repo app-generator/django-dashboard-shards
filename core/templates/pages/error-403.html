@@ -1,0 +1,24 @@
+{% extends "layouts/base-site.html" %}
+
+{% block title %} Page 403 {% endblock %} 
+
+<!-- Specific Page CSS goes HERE  -->
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block content %}
+
+    <div class="error">
+
+        <div class="error__content">
+          <h2>403</h2>
+          <h3>Something went wrong!</h3>
+          <p>You are trying to access a private resource. Please contact support.</p>
+          <a href="/" class="btn btn-accent btn-pill">&larr; Go Home</a>
+        </div>
+
+    </div>
+
+{% endblock content %}
+
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}{% endblock javascripts %}

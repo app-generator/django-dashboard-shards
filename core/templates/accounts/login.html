@@ -1,0 +1,73 @@
+{% extends "layouts/base-site.html" %}
+
+{% block title %} Login {% endblock %} 
+
+<!-- Specific Page CSS goes HERE  -->
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block content %}
+
+    <div class="main-content-container container-fluid px-4">
+      <!-- Page Header -->
+      <div class="page-header row no-gutters py-4">
+        <div class="col-12 col-sm-4 text-center text-sm-left mb-0">
+          <h3 class="page-title">Login</h3>
+        </div>
+      </div>
+      <!-- End Page Header -->
+      <!-- Default Light Table -->
+      <div class="row">
+
+        <div class="col-lg-8">
+          <div class="card card-small mb-4">
+            <div class="card-header border-bottom">
+              <h6 class="m-0">
+                
+                {% if msg %}
+                  {{ msg | safe }}
+                {% else %}
+                  Sign in to continue
+                {% endif %}  
+
+              </h6>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item p-3">
+                <div class="row">
+                  <div class="col">
+
+                    <form role="form" method="post" action="" class="pt-3">
+              
+                      {% csrf_token %} 
+
+                      <div class="form-row">
+                        <div class="form-group col-md-6">
+                          <label for="feFirstName">Username</label>
+                          {{ form.username }}
+                        </div>
+                      </div>
+                      <div class="form-row">
+                        <div class="form-group col-md-6">
+                          <label for="feEmailAddress">Password</label>
+                          {{ form.password }}
+                        </div>
+                      </div>
+                      <button type="submit" name="login" class="btn btn-accent">Login</button>
+                       &nbsp; &nbsp; 
+                       Don't have an account? <a href={% url 'register' %} class="text-primary">Register</a>
+                    </form>
+
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- End Default Light Table -->
+    </div>
+
+{% endblock content %}
+
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}{% endblock javascripts %}

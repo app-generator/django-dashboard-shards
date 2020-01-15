@@ -1,0 +1,24 @@
+{% extends "layouts/base-site.html" %}
+
+{% block title %} Page 500 {% endblock %} 
+
+<!-- Specific Page CSS goes HERE  -->
+{% block stylesheets %}{% endblock stylesheets %}
+
+{% block content %}
+
+    <div class="error">
+
+        <div class="error__content">
+          <h2>500</h2>
+          <h3>Something went wrong!</h3>
+          <p>There was a problem on our end. Please try again later.</p>
+          <a href="/" class="btn btn-accent btn-pill">&larr; Go Home</a>
+        </div>
+
+    </div>
+
+{% endblock content %}
+
+<!-- Specific Page JS goes HERE  -->
+{% block javascripts %}{% endblock javascripts %}
