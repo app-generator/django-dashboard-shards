@@ -21,6 +21,7 @@
 
 - [Django Dashboard Shards](https://appseed.us/admin-dashboards/django-dashboard-shards) - product page
 - [Django Dashboard Shards](https://django-dashboard-shards.appseed.us) - LIVE Demo
+- [Django Dashboard Shards](https://www.youtube.com/watch?v=0FWA4lD2A0o) - yTube presentation
 
 <br />
 
@@ -183,7 +184,6 @@ Visit `http://localhost:8001` in your browser. The app should be up & running.
 
 ## Credits
 
-- [Django Dashboard Shards](https://www.youtube.com/watch?v=0FWA4lD2A0o) - yTube presentation
 - [Django Framework](https://www.djangoproject.com/) - Offcial website
 - [Django Admin Dashboards](https://appseed.us/admin-dashboards/django) - Open-source and paid admin panels coded in **Django**
 
