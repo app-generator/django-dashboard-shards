@@ -9,7 +9,7 @@
 - UI-Ready app, SQLite Database, Django Native ORM
 - Modular design, clean code-base
 - Session-Based Authentication, Forms validation
-- Deployment scripts: Heroku, Docker, Gunicorn / Nginx
+- Deployment scripts: Heroku, Docker, Gunicorn / Nginx 
 - UI Kit: **[Shards Dashboard Lite](https://designrevision.com/downloads/shards-dashboard-lite/?ref=appseed)** (Free version) provided by **Creative-Tim**
 - **MIT License**
 - Support: Free support via **Github** and (Paid) **24/7 LIVE Support** via [Discord](https://discord.gg/fZC6hup)
