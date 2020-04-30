@@ -1,6 +1,6 @@
-{% extends "layouts/base-site.html" %}
+{% extends "layouts/base.html" %}
 
-{% block title %} Page 500 {% endblock %} 
+{% block title %} Page 403 {% endblock %} 
 
 <!-- Specific Page CSS goes HERE  -->
 {% block stylesheets %}{% endblock stylesheets %}
@@ -10,9 +10,9 @@
     <div class="error">
 
         <div class="error__content">
-          <h2>500</h2>
+          <h2>403</h2>
           <h3>Something went wrong!</h3>
-          <p>There was a problem on our end. Please try again later.</p>
+          <p>You are trying to access a private resource. Please contact support.</p>
           <a href="/" class="btn btn-accent btn-pill">&larr; Go Home</a>
         </div>
 
