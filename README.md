@@ -1,4 +1,4 @@
-# [Django Dashboard Shards](https://appseed.us/admin-dashboards/django-dashboard-light-blue)
+# [Django Dashboard Shards](https://appseed.us/admin-dashboards/django-dashboard-shards)
 
 > **Open-Source Admin Dashboard** coded in **Flask Framework** by **AppSeed** [Web App Generator](https://appseed.us/app-generator) - features:
 
