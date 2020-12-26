@@ -163,4 +163,4 @@ A high-quality & free Bootstrap admin dashboard template pack that comes with lo
 <br />
 
 ---
-[Django Dashboard](https://appseed.us/admin-dashboards/django?ref=gh) Shards - Provided by **AppSeed** [Web App Generator](https://appseed.us/app-generator).
+[Django Dashboard](https://appseed.us/admin-dashboards/django?ref=gh) Shards - Provided by **AppSeed [App Generator](https://appseed.us/app-generator)**.
